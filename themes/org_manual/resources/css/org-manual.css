@@ -173,12 +173,13 @@ pre {
     filter:alpha(opacity=100);
 }
 
-.outline-2 {
-    position: relative;
-    left: 215px;
-    top: 105px;
-    width: 75%;
-    padding-bottom: 5pt;
+.outline-2 h2:before {
+  content: "*";
+  left: -1.25em;
+}
+
+.outline-3 {
+    margin-left: 15px;
 }
 
 #twit {
