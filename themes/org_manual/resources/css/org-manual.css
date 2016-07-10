@@ -174,12 +174,29 @@ pre {
 }
 
 .outline-2 h2:before {
-  content: "*";
-  left: -1.25em;
+  content: "◉ ";
+  font-size: small;
+  vertical-align: middle;
 }
 
 .outline-3 {
     margin-left: 15px;
+}
+
+.outline-3 h3:before {
+  content: "○ ";
+  font-size: small;
+  vertical-align: middle;
+}
+
+.outline-4 {
+    margin-left: 15px;
+}
+
+.outline-4 h4:before {
+  content: "✸ ";
+  font-size: small;
+  vertical-align: middle;
 }
 
 #twit {
