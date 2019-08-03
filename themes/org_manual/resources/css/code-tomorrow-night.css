@@ -1,14 +1,10 @@
 .linenr {
-  color: #44505c;
-  background-color: #212026;
+  color: #3F4040;
+  background-color: #1d1f21;
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-  margin-left: -0.5em;
-  margin-right: 0.5em;
-  padding-top: 0.5em;
-  padding-bottom: 0.5em;
 }
 
 .linenr::before {
@@ -20,11 +16,11 @@
 }
 
 .org-src-container pre {
-  background-color: #292b2e;
+  background-color: #1d1f21;
   font-family: "Source Code Pro", "Droid Sans Mono", "Monaco", "menlo", "Ubuntu Mono", "DejaVu Sans Mono", consolas, courier, monospace;
   box-shadow: none;
   border: none;
-  color: #b2b2b2;
+  color: #c5c8c6;
   padding: 0.5em 0 0.5em 0.5em;
   font-size: 95%;
   overflow: auto;
