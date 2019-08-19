@@ -11,12 +11,11 @@
     <div class="node nav">
       <ul>
         {{#nav-categories}}
-          <li><a href="{{category-uri}}">{{category-name}}</a></li>
+          <li><a href="{{category-uri}}" id="{{category-name}}_tab">{{category-name}}</a></li>
         {{/nav-categories}}
-        <li><a href="/tags/">Tags</a></li>
-        <li><a href="/about/">About</a></li>
-        <li><a href="{{github}}">GitHub</a></li>
-        <li><a href="/rss.xml">RSS</a></li>
+        <li><a href="/tags/" id="tags_tab">Tags</a></li>
+        <li><a href="/about/" id="about_tab">About</a></li>
+        <li><a href="{{github}}" id="github_tab">GitHub</a></li>
+        <li><a href="/rss.xml" id="rss_tab">RSS</a></li>
       </ul>
-      <hr/>
     </div>
